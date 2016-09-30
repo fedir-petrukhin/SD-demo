@@ -28,6 +28,11 @@
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
 
+    <platform name="android">
+	<preference name="android-minSdkVersion" value="19" />
+    	<preference name="android-targetSdkVersion" value="22" />
+    </platform>
+
     <gap:config-file platform="android" parent="/manifest">
         <application android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"></application>
     </gap:config-file>
