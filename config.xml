@@ -32,7 +32,7 @@
         <application android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"></application>
     </gap:config-file>
     
-    <plugin name="com.cci.bizcard.plugin" spec="1.0.0" source="pgb" />
+    <plugin name="com.cci.bizcard.plugin" spec="1.0.1" source="pgb" />
     
     <feature name="DatePickerPlugin">
         <param name="android-package" value="com.plugin.datepicker.DatePickerPlugin"/>
